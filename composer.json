@@ -1,5 +1,5 @@
 {
-    "name": "golovsv/bracket-checker",
+    "name": "golovsv/task-brace-checker",
     "description": "My first package",
     "license": "proprietary",
     "keywords": ["study", "php"],
