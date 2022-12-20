@@ -1,8 +1,11 @@
 <?php
 
-class Bracket 
+namespace Otus;
+use InvalidArgumentException;
+
+class Bracket
 {
-    public function brackets(string $str):bool
+    public static function brackets(string $str):bool
     {
         $counter = 0;
         $strArray = str_split($str);
